@@ -3,7 +3,7 @@ function isPrime(number) {
       return false;
   }
 
-  for (let i = 0; i <= Math.sqrt(number); i++) {
+  for (let i = 2; i <= Math.sqrt(number); i++) {
       if (number % i === 0) {
           return false; // if not prime
       }
